@@ -8,6 +8,11 @@ def initialize(name)
   @@all << name 
 end 
 
+def self.all
+  @@all
+end 
+
+
 def add_posts_by_title(title)
   post = Post.new(title)
   post.author = self 
