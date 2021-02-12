@@ -8,6 +8,7 @@ def initialize(name)
   @@all << name 
 end 
 
+def 
 def posts 
   Posts.all.select {|post| post.author == self} 
 end 
