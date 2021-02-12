@@ -9,7 +9,7 @@ def initialize(name)
 end 
 
 def add_posts(post)
-  post.author = self. 
+  post.author = self
 end 
 
 def posts 
