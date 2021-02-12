@@ -12,7 +12,7 @@ class Song
   @@all << self 
   end 
   
-  def artist 
+  def artist_name
     self.artist = 
 
 end 
