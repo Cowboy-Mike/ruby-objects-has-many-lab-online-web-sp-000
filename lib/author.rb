@@ -9,7 +9,7 @@ def initialize(name)
 end 
 
 def posts 
-  Posts.all.select {|post| posts.author == self} 
+  Posts.all.select {|post| post.author == self} 
 end 
 
 
