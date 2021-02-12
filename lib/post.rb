@@ -16,4 +16,8 @@ class Post
     author.name if author 
   end 
   
+  def add_post(post)
+    post.author = self 
+  end 
+  
 end
