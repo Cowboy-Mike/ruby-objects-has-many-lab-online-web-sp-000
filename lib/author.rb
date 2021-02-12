@@ -8,6 +8,7 @@ def initialize(name)
   @@all << name 
 end 
 
+
 def add_posts(post)
   post.author = self
 end 
