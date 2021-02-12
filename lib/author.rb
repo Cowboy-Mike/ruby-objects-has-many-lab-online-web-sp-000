@@ -23,7 +23,7 @@ def add_post(post)
 end 
 
 def posts 
-  Posts.all.select {|post| post.author == self} 
+  Post.all.select {|post| post.author == self} 
 end 
 
 
